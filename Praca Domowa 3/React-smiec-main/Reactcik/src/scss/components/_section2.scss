@@ -1,0 +1,24 @@
+.section2{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 25vw;
+    .div1{
+        width: 50vw;
+        background-color: $color2;
+    }
+    &--content{
+        flex-direction: column;
+        .div2{
+            width: 50vw;
+            height: 12.5vw;
+            background-color: $color3;
+        }
+        .div3{
+            width: 50vw;
+            height: 12.5vw;
+            background-color: $color4;
+        }
+    
+    }
+}

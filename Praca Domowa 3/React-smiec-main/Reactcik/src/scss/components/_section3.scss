@@ -1,0 +1,13 @@
+.section3 {
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color5;
+    div{
+        width:12.5vw;
+        height: 12.5vw;
+        background-color: $color1;
+    }
+}

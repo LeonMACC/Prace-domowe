@@ -1,0 +1,14 @@
+.section5 {
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    justify-content: right;
+    padding-right: 2vw;
+    align-items: center;
+    background-color: $color3;
+    div{
+        width:12.5vw;
+        height: 12.5vw;
+        background-color: $color1;
+    }
+}
